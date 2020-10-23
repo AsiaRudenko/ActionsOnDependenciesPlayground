@@ -49,6 +49,10 @@
       <Project>{B1FBB328-0062-4352-9F52-9A1EF7E72950}</Project>
       <Name>A.Framework</Name>
     </ProjectReference>
+    <ProjectReference Include="..\B.Framework\B.Framework.csproj">
+      <Project>{3cdc3289-c704-468b-9407-cde29486383c}</Project>
+      <Name>B.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

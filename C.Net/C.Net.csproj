@@ -8,6 +8,9 @@
     <ProjectReference Include="..\A.Core\A.Core.csproj" />
     <ProjectReference Include="..\A.Net\A.Net.csproj" />
     <ProjectReference Include="..\A\A.Framework.csproj" />
+    <ProjectReference Include="..\B.Core\B.Core.csproj" />
+    <ProjectReference Include="..\B.Framework\B.Framework.csproj" />
+    <ProjectReference Include="..\B.Net\B.Net.csproj" />
   </ItemGroup>
 
 </Project>

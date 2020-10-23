@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/A.Core.dll": {}
         }
+      },
+      "B.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "A.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/B.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/B.Core.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../A.Core/A.Core.csproj",
       "msbuildProject": "../A.Core/A.Core.csproj"
+    },
+    "B.Core/1.0.0": {
+      "type": "project",
+      "path": "../B.Core/B.Core.csproj",
+      "msbuildProject": "../B.Core/B.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "A.Core >= 1.0.0"
+      "A.Core >= 1.0.0",
+      "B.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -62,6 +81,9 @@
           "projectReferences": {
             "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Core\\A.Core.csproj": {
               "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Core\\A.Core.csproj"
+            },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\B.Core\\B.Core.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\B.Core\\B.Core.csproj"
             }
           }
         }
