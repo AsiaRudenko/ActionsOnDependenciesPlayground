@@ -10,7 +10,7 @@
         // TODO 3. Find dependent code (all projects): B / references / A
         // TODO 4. Optimize references: C / references / A and B (there are usages of A)
         // TODO 5. Safe delete: C / references / A and B (there are usages of A)
-        // TODO 6. Optimize references: C / references / A (no usages)
-        // TODO 7. Safe delete: C / references / A (no usages)
+        // TODO 6. Optimize references: D / references / A (no usages)
+        // TODO 7. Safe delete: D / references / A (no usages)
     }
 }
