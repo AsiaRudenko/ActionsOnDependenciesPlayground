@@ -1,11 +1,61 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "A.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/A.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Core.dll": {}
+        }
+      },
+      "A.Framework/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/A.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Framework.dll": {}
+        }
+      },
+      "A.Net/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/A.Net.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Net.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "A.Core/1.0.0": {
+      "type": "project",
+      "path": "../A.Core/A.Core.csproj",
+      "msbuildProject": "../A.Core/A.Core.csproj"
+    },
+    "A.Framework/1.0.0": {
+      "type": "project",
+      "path": "../A/A.Framework.csproj",
+      "msbuildProject": "../A/A.Framework.csproj"
+    },
+    "A.Net/1.0.0": {
+      "type": "project",
+      "path": "../A.Net/A.Net.csproj",
+      "msbuildProject": "../A.Net/A.Net.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "A.Core >= 1.0.0",
+      "A.Framework >= 1.0.0",
+      "A.Net >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\asia.koox\\.nuget\\packages\\": {},
@@ -40,7 +90,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Core\\A.Core.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Core\\A.Core.csproj"
+            },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Net\\A.Net.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Net\\A.Net.csproj"
+            },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
