@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\A.Standard\A.Standard.csproj">
+      <Project>{1973a90e-3aa9-475d-aa9c-c1b441a4dc38}</Project>
+      <Name>A.Standard</Name>
+    </ProjectReference>
     <ProjectReference Include="..\A\A.Framework.csproj">
       <Project>{B1FBB328-0062-4352-9F52-9A1EF7E72950}</Project>
       <Name>A.Framework</Name>

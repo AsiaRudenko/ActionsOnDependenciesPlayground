@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\A.Core\A.Core.csproj" />
     <ProjectReference Include="..\A.Net\A.Net.csproj" />
+    <ProjectReference Include="..\A.Standard\A.Standard.csproj" />
     <ProjectReference Include="..\A\A.Framework.csproj" />
   </ItemGroup>
 

@@ -30,6 +30,16 @@
         "runtime": {
           "bin/placeholder/A.Net.dll": {}
         }
+      },
+      "A.Standard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/A.Standard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Standard.dll": {}
+        }
       }
     }
   },
@@ -48,13 +58,19 @@
       "type": "project",
       "path": "../A.Net/A.Net.csproj",
       "msbuildProject": "../A.Net/A.Net.csproj"
+    },
+    "A.Standard/1.0.0": {
+      "type": "project",
+      "path": "../A.Standard/A.Standard.csproj",
+      "msbuildProject": "../A.Standard/A.Standard.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "A.Core >= 1.0.0",
       "A.Framework >= 1.0.0",
-      "A.Net >= 1.0.0"
+      "A.Net >= 1.0.0",
+      "A.Standard >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -96,6 +112,9 @@
             },
             "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Net\\A.Net.csproj": {
               "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Net\\A.Net.csproj"
+            },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Standard\\A.Standard.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Standard\\A.Standard.csproj"
             },
             "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj": {
               "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj"

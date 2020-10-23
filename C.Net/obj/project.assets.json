@@ -31,11 +31,23 @@
           "bin/placeholder/A.Net.dll": {}
         }
       },
+      "A.Standard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/A.Standard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Standard.dll": {}
+        }
+      },
       "B.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "A.Core": "1.0.0"
+          "A.Core": "1.0.0",
+          "A.Framework": "1.0.0",
+          "A.Standard": "1.0.0"
         },
         "compile": {
           "bin/placeholder/B.Core.dll": {}
@@ -47,7 +59,8 @@
       "B.Framework/1.0.0": {
         "type": "project",
         "dependencies": {
-          "A.Framework": "1.0.0"
+          "A.Framework": "1.0.0",
+          "A.Standard": "1.0.0"
         },
         "compile": {
           "bin/placeholder/B.Framework.dll": {}
@@ -62,13 +75,27 @@
         "dependencies": {
           "A.Core": "1.0.0",
           "A.Framework": "1.0.0",
-          "A.Net": "1.0.0"
+          "A.Net": "1.0.0",
+          "A.Standard": "1.0.0"
         },
         "compile": {
           "bin/placeholder/B.Net.dll": {}
         },
         "runtime": {
           "bin/placeholder/B.Net.dll": {}
+        }
+      },
+      "B.Standard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "A.Standard": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/B.Standard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/B.Standard.dll": {}
         }
       }
     }
@@ -89,6 +116,11 @@
       "path": "../A.Net/A.Net.csproj",
       "msbuildProject": "../A.Net/A.Net.csproj"
     },
+    "A.Standard/1.0.0": {
+      "type": "project",
+      "path": "../A.Standard/A.Standard.csproj",
+      "msbuildProject": "../A.Standard/A.Standard.csproj"
+    },
     "B.Core/1.0.0": {
       "type": "project",
       "path": "../B.Core/B.Core.csproj",
@@ -103,6 +135,11 @@
       "type": "project",
       "path": "../B.Net/B.Net.csproj",
       "msbuildProject": "../B.Net/B.Net.csproj"
+    },
+    "B.Standard/1.0.0": {
+      "type": "project",
+      "path": "../B.Standard/B.Standard.csproj",
+      "msbuildProject": "../B.Standard/B.Standard.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -110,9 +147,11 @@
       "A.Core >= 1.0.0",
       "A.Framework >= 1.0.0",
       "A.Net >= 1.0.0",
+      "A.Standard >= 1.0.0",
       "B.Core >= 1.0.0",
       "B.Framework >= 1.0.0",
-      "B.Net >= 1.0.0"
+      "B.Net >= 1.0.0",
+      "B.Standard >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -155,6 +194,9 @@
             "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Net\\A.Net.csproj": {
               "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Net\\A.Net.csproj"
             },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Standard\\A.Standard.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Standard\\A.Standard.csproj"
+            },
             "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj": {
               "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj"
             },
@@ -166,6 +208,9 @@
             },
             "C:\\TestProjects\\ActionsOnDependenciesPlayground\\B.Net\\B.Net.csproj": {
               "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\B.Net\\B.Net.csproj"
+            },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\B.Standard\\B.Standard.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\B.Standard\\B.Standard.csproj"
             }
           }
         }

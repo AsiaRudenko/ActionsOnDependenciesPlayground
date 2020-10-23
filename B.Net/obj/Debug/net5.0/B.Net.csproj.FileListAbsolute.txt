@@ -17,3 +17,5 @@ C:\TestProjects\ActionsOnDependenciesPlayground\B.Net\obj\Debug\net5.0\B.Net.csp
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Net\obj\Debug\net5.0\B.Net.dll
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Net\obj\Debug\net5.0\ref\B.Net.dll
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Net\obj\Debug\net5.0\B.Net.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Net\bin\Debug\net5.0\A.Standard.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Net\bin\Debug\net5.0\A.Standard.pdb

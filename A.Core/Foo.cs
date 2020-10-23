@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace A.Core
+﻿namespace A.Core
 {
     public class Foo
     {

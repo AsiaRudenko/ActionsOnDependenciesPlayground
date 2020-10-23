@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\A.Standard\A.Standard.csproj">
+      <Project>{1973a90e-3aa9-475d-aa9c-c1b441a4dc38}</Project>
+      <Name>A.Standard</Name>
+    </ProjectReference>
     <ProjectReference Include="..\A\A.Framework.csproj">
       <Project>{B1FBB328-0062-4352-9F52-9A1EF7E72950}</Project>
       <Name>A.Framework</Name>
@@ -52,6 +56,10 @@
     <ProjectReference Include="..\B.Framework\B.Framework.csproj">
       <Project>{3cdc3289-c704-468b-9407-cde29486383c}</Project>
       <Name>B.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\B.Standard\B.Standard.csproj">
+      <Project>{0a8ba712-2da0-4003-a7f5-3c914def7d4b}</Project>
+      <Name>B.Standard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

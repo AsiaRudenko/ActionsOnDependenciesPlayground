@@ -1,14 +1,16 @@
-﻿using System;
-using A.Core;
-
-namespace C.Core
+﻿namespace C.Core
 {
     public class Wobble
     {
         public void M()
         {
-            var foo = new Foo();
-            foo.Bar();
+            var foo_framework = new A.Framework.Foo();
+            var foo_core = new A.Core.Foo();
+            var foo_standard = new A.Standard.Foo();
+
+            foo_framework.Bar();
+            foo_core.Bar();
+            foo_framework.Bar();
         }
     }
 }

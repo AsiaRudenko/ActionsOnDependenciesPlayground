@@ -1,5 +1,3 @@
-﻿using System;
-
-namespace D.Net
+﻿namespace D.Net
 {
 }

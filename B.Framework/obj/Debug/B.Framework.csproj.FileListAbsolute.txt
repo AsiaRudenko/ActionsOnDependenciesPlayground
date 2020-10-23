@@ -7,3 +7,5 @@ C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framewor
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.csproj.CopyComplete
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.dll
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\bin\Debug\A.Standard.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\bin\Debug\A.Standard.pdb

@@ -10,7 +10,12 @@
         "dependencies": {
           "A.Core": "1.0.0",
           "A.Framework": "1.0.0",
-          "A.Net": "1.0.0"
+          "A.Net": "1.0.0",
+          "A.Standard": "1.0.0",
+          "B.Core": "1.0.0",
+          "B.Framework": "1.0.0",
+          "B.Net": "1.0.0",
+          "B.Standard": "1.0.0"
         },
         "runtime": {
           "C.Net.dll": {}
@@ -29,6 +34,49 @@
       "A.Net/1.0.0": {
         "runtime": {
           "A.Net.dll": {}
+        }
+      },
+      "A.Standard/1.0.0": {
+        "runtime": {
+          "A.Standard.dll": {}
+        }
+      },
+      "B.Core/1.0.0": {
+        "dependencies": {
+          "A.Core": "1.0.0",
+          "A.Framework": "1.0.0",
+          "A.Standard": "1.0.0"
+        },
+        "runtime": {
+          "B.Core.dll": {}
+        }
+      },
+      "B.Framework/1.0.0": {
+        "dependencies": {
+          "A.Framework": "1.0.0",
+          "A.Standard": "1.0.0"
+        },
+        "runtime": {
+          "B.Framework.dll": {}
+        }
+      },
+      "B.Net/1.0.0": {
+        "dependencies": {
+          "A.Core": "1.0.0",
+          "A.Framework": "1.0.0",
+          "A.Net": "1.0.0",
+          "A.Standard": "1.0.0"
+        },
+        "runtime": {
+          "B.Net.dll": {}
+        }
+      },
+      "B.Standard/1.0.0": {
+        "dependencies": {
+          "A.Standard": "1.0.0"
+        },
+        "runtime": {
+          "B.Standard.dll": {}
         }
       }
     }
@@ -50,6 +98,31 @@
       "sha512": ""
     },
     "A.Net/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Standard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B.Net/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B.Standard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

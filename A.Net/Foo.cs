@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace A.Net
+﻿namespace A.Net
 {
     public class Foo
     {

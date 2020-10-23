@@ -11,6 +11,25 @@
         "runtime": {
           "bin/placeholder/A.Core.dll": {}
         }
+      },
+      "A.Framework/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/A.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Framework.dll": {}
+        }
+      },
+      "A.Standard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/A.Standard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A.Standard.dll": {}
+        }
       }
     }
   },
@@ -19,11 +38,23 @@
       "type": "project",
       "path": "../A.Core/A.Core.csproj",
       "msbuildProject": "../A.Core/A.Core.csproj"
+    },
+    "A.Framework/1.0.0": {
+      "type": "project",
+      "path": "../A/A.Framework.csproj",
+      "msbuildProject": "../A/A.Framework.csproj"
+    },
+    "A.Standard/1.0.0": {
+      "type": "project",
+      "path": "../A.Standard/A.Standard.csproj",
+      "msbuildProject": "../A.Standard/A.Standard.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "A.Core >= 1.0.0"
+      "A.Core >= 1.0.0",
+      "A.Framework >= 1.0.0",
+      "A.Standard >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -62,6 +93,12 @@
           "projectReferences": {
             "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Core\\A.Core.csproj": {
               "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Core\\A.Core.csproj"
+            },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Standard\\A.Standard.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A.Standard\\A.Standard.csproj"
+            },
+            "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj": {
+              "projectPath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\A\\A.Framework.csproj"
             }
           }
         }

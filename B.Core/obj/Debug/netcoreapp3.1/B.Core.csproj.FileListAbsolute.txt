@@ -10,3 +10,7 @@ C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\obj\Debug\netcoreapp3.1\B
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\obj\Debug\netcoreapp3.1\B.Core.csproj.CopyComplete
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\obj\Debug\netcoreapp3.1\B.Core.dll
 C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\obj\Debug\netcoreapp3.1\B.Core.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\bin\Debug\netcoreapp3.1\A.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\bin\Debug\netcoreapp3.1\A.Framework.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\bin\Debug\netcoreapp3.1\A.Standard.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Core\bin\Debug\netcoreapp3.1\A.Standard.pdb

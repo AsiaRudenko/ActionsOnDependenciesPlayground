@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace D.Core
+﻿namespace D.Core
 {
     public class Class1
     {

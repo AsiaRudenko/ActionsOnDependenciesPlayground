@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using A;
-using A.Framework;
+﻿using A.Framework;
 
 namespace C.Framework
 {

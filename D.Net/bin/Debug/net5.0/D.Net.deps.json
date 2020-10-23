@@ -7,14 +7,49 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "D.Net/1.0.0": {
+        "dependencies": {
+          "A.Core": "1.0.0",
+          "A.Framework": "1.0.0",
+          "A.Net": "1.0.0"
+        },
         "runtime": {
           "D.Net.dll": {}
+        }
+      },
+      "A.Core/1.0.0": {
+        "runtime": {
+          "A.Core.dll": {}
+        }
+      },
+      "A.Framework/1.0.0": {
+        "runtime": {
+          "A.Framework.dll": {}
+        }
+      },
+      "A.Net/1.0.0": {
+        "runtime": {
+          "A.Net.dll": {}
         }
       }
     }
   },
   "libraries": {
     "D.Net/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Net/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

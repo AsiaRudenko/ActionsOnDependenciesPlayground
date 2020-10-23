@@ -8,7 +8,12 @@
     ".NETCoreApp,Version=v3.1": {
       "C.Core/1.0.0": {
         "dependencies": {
-          "A.Core": "1.0.0"
+          "A.Core": "1.0.0",
+          "A.Framework": "1.0.0",
+          "A.Standard": "1.0.0",
+          "B.Core": "1.0.0",
+          "B.Framework": "1.0.0",
+          "B.Standard": "1.0.0"
         },
         "runtime": {
           "C.Core.dll": {}
@@ -17,6 +22,43 @@
       "A.Core/1.0.0": {
         "runtime": {
           "A.Core.dll": {}
+        }
+      },
+      "A.Framework/1.0.0": {
+        "runtime": {
+          "A.Framework.dll": {}
+        }
+      },
+      "A.Standard/1.0.0": {
+        "runtime": {
+          "A.Standard.dll": {}
+        }
+      },
+      "B.Core/1.0.0": {
+        "dependencies": {
+          "A.Core": "1.0.0",
+          "A.Framework": "1.0.0",
+          "A.Standard": "1.0.0"
+        },
+        "runtime": {
+          "B.Core.dll": {}
+        }
+      },
+      "B.Framework/1.0.0": {
+        "dependencies": {
+          "A.Framework": "1.0.0",
+          "A.Standard": "1.0.0"
+        },
+        "runtime": {
+          "B.Framework.dll": {}
+        }
+      },
+      "B.Standard/1.0.0": {
+        "dependencies": {
+          "A.Standard": "1.0.0"
+        },
+        "runtime": {
+          "B.Standard.dll": {}
         }
       }
     }
@@ -28,6 +70,31 @@
       "sha512": ""
     },
     "A.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Standard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B.Standard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

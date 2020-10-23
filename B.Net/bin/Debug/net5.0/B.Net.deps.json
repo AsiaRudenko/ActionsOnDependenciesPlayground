@@ -10,7 +10,8 @@
         "dependencies": {
           "A.Core": "1.0.0",
           "A.Framework": "1.0.0",
-          "A.Net": "1.0.0"
+          "A.Net": "1.0.0",
+          "A.Standard": "1.0.0"
         },
         "runtime": {
           "B.Net.dll": {}
@@ -29,6 +30,11 @@
       "A.Net/1.0.0": {
         "runtime": {
           "A.Net.dll": {}
+        }
+      },
+      "A.Standard/1.0.0": {
+        "runtime": {
+          "A.Standard.dll": {}
         }
       }
     }
@@ -50,6 +56,11 @@
       "sha512": ""
     },
     "A.Net/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "A.Standard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

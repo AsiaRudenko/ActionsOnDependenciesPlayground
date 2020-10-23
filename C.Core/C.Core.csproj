@@ -6,7 +6,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\A.Core\A.Core.csproj" />
+    <ProjectReference Include="..\A.Standard\A.Standard.csproj" />
+    <ProjectReference Include="..\A\A.Framework.csproj" />
     <ProjectReference Include="..\B.Core\B.Core.csproj" />
+    <ProjectReference Include="..\B.Framework\B.Framework.csproj" />
+    <ProjectReference Include="..\B.Standard\B.Standard.csproj" />
   </ItemGroup>
 
 </Project>
