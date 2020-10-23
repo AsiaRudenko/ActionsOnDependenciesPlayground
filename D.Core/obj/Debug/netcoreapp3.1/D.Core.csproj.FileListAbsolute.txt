@@ -1,0 +1,9 @@
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\bin\Debug\netcoreapp3.1\D.Core.deps.json
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\bin\Debug\netcoreapp3.1\D.Core.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\bin\Debug\netcoreapp3.1\D.Core.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\obj\Debug\netcoreapp3.1\D.Core.csprojAssemblyReference.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\obj\Debug\netcoreapp3.1\D.Core.AssemblyInfoInputs.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\obj\Debug\netcoreapp3.1\D.Core.AssemblyInfo.cs
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\obj\Debug\netcoreapp3.1\D.Core.csproj.CoreCompileInputs.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\obj\Debug\netcoreapp3.1\D.Core.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Core\obj\Debug\netcoreapp3.1\D.Core.pdb

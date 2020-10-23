@@ -1,0 +1,5 @@
+C:\TestProjects\ActionsOnDependenciesPlayground\A\bin\Debug\A.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\A\bin\Debug\A.Framework.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\A\obj\Debug\A.Framework.csproj.CoreCompileInputs.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\A\obj\Debug\A.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\A\obj\Debug\A.Framework.pdb

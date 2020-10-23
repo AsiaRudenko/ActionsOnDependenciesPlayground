@@ -1,0 +1,12 @@
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\bin\Debug\net5.0\A.Net.deps.json
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\bin\Debug\net5.0\A.Net.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\bin\Debug\net5.0\ref\A.Net.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\bin\Debug\net5.0\A.Net.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\A.Net.csprojAssemblyReference.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\A.Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\A.Net.AssemblyInfoInputs.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\A.Net.AssemblyInfo.cs
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\A.Net.csproj.CoreCompileInputs.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\A.Net.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\ref\A.Net.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\A.Net\obj\Debug\net5.0\A.Net.pdb

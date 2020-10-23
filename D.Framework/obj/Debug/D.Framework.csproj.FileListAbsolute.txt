@@ -1,0 +1,6 @@
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Framework\bin\Debug\D.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Framework\bin\Debug\D.Framework.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Framework\obj\Debug\D.Framework.csprojAssemblyReference.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Framework\obj\Debug\D.Framework.csproj.CoreCompileInputs.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Framework\obj\Debug\D.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\D.Framework\obj\Debug\D.Framework.pdb

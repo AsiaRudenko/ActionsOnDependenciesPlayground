@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QuTfcX7R65eAsjs/HOhet4C9zgvinSsIzK8e1JUUPJbjypC0KuqqzpxQWmj2aAP3n0bwRtKSNvYflJUFHyLO8Q==",
+  "success": true,
+  "projectFilePath": "C:\\TestProjects\\ActionsOnDependenciesPlayground\\D.Core\\D.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asia.koox\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

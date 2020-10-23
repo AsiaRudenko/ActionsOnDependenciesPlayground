@@ -1,0 +1,9 @@
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\bin\Debug\B.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\bin\Debug\B.Framework.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\bin\Debug\A.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\bin\Debug\A.Framework.pdb
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.csprojAssemblyReference.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.csproj.CoreCompileInputs.cache
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.csproj.CopyComplete
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.dll
+C:\TestProjects\ActionsOnDependenciesPlayground\B.Framework\obj\Debug\B.Framework.pdb
